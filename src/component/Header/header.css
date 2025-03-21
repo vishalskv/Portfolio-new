@@ -1,0 +1,71 @@
+.profile-header h1{
+    z-index: 3;
+    /* height: 3.5em; */
+    line-height: inherit;
+    padding: 0 0 0 0.5em;
+    white-space: nowrap;
+    color: #3c3b3b;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: .25em;
+    line-height: 1.65;
+    /* margin: 0 0 1em; */
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.profile-header h1 a{
+    font-size:11.2px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.profile-header nav{
+    background-color: #fff !important;
+    border-bottom: 1px solid #a0a0a04d;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    height: 3.5em;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.profile-header #navbarNav{
+    border-left: 1px solid #a0a0a04d;
+    -moz-flex: 1;
+    flex: 1 1;
+    /* height: inherit;
+    line-height: inherit; */
+    margin-left: 1.5em;
+    overflow: hidden;
+    padding-left: 1.5em;
+}
+.profile-header ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.profile-header ul li:first-child{
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.profile-header ul li a{
+    border-bottom: 0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+}
+.profile-header ul li{
+    border-left: 1px solid #a0a0a04d;
+    line-height: 1;
+    margin-left: 1em;
+    padding-left: 1em;
+}

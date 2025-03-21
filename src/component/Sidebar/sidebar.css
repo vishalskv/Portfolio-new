@@ -1,0 +1,97 @@
+.person-name {
+    color: #3c3b3b;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: .25em;
+    line-height: 1.65;
+    margin: 0 0 0.8em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.person-email a {
+    border-bottom: 1px dotted #a0a0a0a6;
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s ease, border-bottom-color .2s ease;
+}
+.person-email{
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+    letter-spacing: .25em;
+    line-height: 2.5;
+    margin-top: -1em;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.about-person{
+    color: #3c3b3b;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: .25em;
+    line-height: 1.65;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+    font-size: .8em;
+    margin: 0 0 1.5em;
+    margin-top: 3rem;
+}
+.about-self{
+    color: #646464;
+    font-size: .9em;
+}
+.learn-btn{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #0000;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #a0a0a04d;
+    color: #3c3b3b !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: .6em;
+    font-weight: 800;
+    height: 4.8125em;
+    letter-spacing: .25em;
+    line-height: 4.8125em;
+    padding: 0 2.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .2s ease, box-shadow .2s ease, color .2s ease;
+    white-space: nowrap;
+    margin: 2rem 0rem;
+}
+.learn-btn:hover{
+    box-shadow: inset 0 0 0 1px #2e59ba;
+    color: #2e59ba !important;
+}
+.social-icons{
+    margin-top: 2rem;
+}
+.social-icons svg{
+    color: #646464; 
+    /* padding: 0 1em 0 0; */
+}
+.social-icons .icons{
+    padding: 0px;
+    color: #aaa;
+    
+}
+ul.icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+ul.icons li>* {
+    border: 0;
+    text-decoration: none;
+}
+
+.profile-pic-section img{
+    border-radius: 50%;
+    display: block;
+    width: 10em;
+}

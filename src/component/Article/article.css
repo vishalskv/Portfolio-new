@@ -1,0 +1,39 @@
+#main article{
+    background: #fff;
+    border: 1px solid #a0a0a04d;
+    margin: 0 0 3em;
+    padding: 3em 3em 1em;
+    position: relative;
+}
+#main article header{
+    border-bottom: 1px solid #a0a0a04d;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex
+;
+    left: -3em;
+    margin: -3em 0 3em;
+    position: relative;
+    width: calc(100% + 6em);
+}
+#main .title{
+    -moz-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -ms-flex: 1;
+    padding: 3.75em 3em 3.3em;
+}
+#main .title h2{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+#main .title p{
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+    letter-spacing: .25em;
+    line-height: 2.5;
+    margin-top: -1em;
+    text-transform: uppercase;
+    margin: auto;
+}
