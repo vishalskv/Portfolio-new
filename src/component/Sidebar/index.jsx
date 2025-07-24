@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
-import Photo from "../../assets/me.jpg";
+import Photo from "../../assets/profile.jpg";
 import "./sidebar.css";
 
 const index = () => {
@@ -12,7 +12,7 @@ const index = () => {
     <div>
       <div>
         <div className="profile-pic-section">
-          <img src={Photo} alt="profile" />
+          <img src={Photo} alt="profile" width={"60%"} />
         </div>
         <h3 className="person-name">VISHAL KUMAR P S</h3>
         <p className="person-email">
